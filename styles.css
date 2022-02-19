@@ -1,0 +1,20 @@
+ody {
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #333;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .draggable {
+    padding: 1rem;
+    background-color: rgb(204, 141, 206);
+    border: 1px solid black;
+    cursor: move;
+  }
+  
+  .draggable.dragging {
+    opacity: .5;
+  }
